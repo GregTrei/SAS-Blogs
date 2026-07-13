@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_medalcount_clean",
+  "source_file": "GoingForGold/MedalCount.sas",
+  "source_blob_sha": "4ddddaa6fd85aacd2860d07be6f75f314520df04",
+  "source_commit": "3ffcbeda475c5ae943a5b8a46e42aa9894b0e89b",
+  "notes": "MedalCount.sas cleans a scraped Winter Olympics medal table (SASUSER.MEDALS, populated by TableScrape.py) and charts it. Bundle prepends a small mock SASUSER.MEDALS (same NOC/gold/total columns, plus a '*'-annotated NOC, an Individual Neutral row, and a Totals row) so the author's cleaning logic runs standalone. DATA-step SELECT/WHEN country->ISO2 mapping, TOTALS/Individual Neutral deletes, compress, PROC SORT, and PROC SGPLOT hbar all preserved verbatim. Dropped only the PROC SGMAP world-map block (needs mapsgfk.world map library). Deterministic across 2 POSTs."
+}
