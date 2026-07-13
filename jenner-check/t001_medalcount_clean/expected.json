@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-13T08:34:00Z",
+  "_captured_run_id": "r_0f8170b799254448a9acbb8ad154804c",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote sasuser.medals (9 rows, 5 columns).",
+    "NOTE: Read 9 rows from sasuser.medals.",
+    "NOTE: Wrote work.medal_clean (7 rows, 6 columns).",
+    "NOTE: Wrote medal_clean (7 rows, 6 columns).",
+    "NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
